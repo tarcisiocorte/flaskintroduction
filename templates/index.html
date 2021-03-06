@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World!</title>
-</head>
+{% block head %}
+This is a template in action
+{% endblock %}
 
-<body>
-
-    <H3>Hello World!!!</H3>
-
-</body>
-
-</html>
+{% block html %}
+<h1>Template as tests</h1>
+{% endblock %}
